@@ -1,0 +1,17 @@
+div.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+div.logo img{
+    height: 50%;
+}
+
+div.logo h1{
+    color: white;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+}

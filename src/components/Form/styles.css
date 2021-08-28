@@ -1,0 +1,18 @@
+form{
+    height: auto;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #252422ce;
+    border-radius: 0 0 8px 8px;
+}
+
+form div{
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}

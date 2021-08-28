@@ -1,0 +1,21 @@
+@font-face {
+    font-family: PublicSans;
+    src: url('./assets/font/PublicSans-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: PublicSans;
+    box-sizing: border-box;
+}
+
+body{
+    background: #403d39 url('./assets/images/Science\ and\ Technology.png') no-repeat fixed;
+    background-size: 120vh;
+    background-position: bottom left;
+    background-blend-mode: screen;
+    scroll-behavior: smooth;
+    color: #fffcf2;
+}
