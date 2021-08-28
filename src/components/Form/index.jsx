@@ -25,13 +25,13 @@ const handleSubmit = e => {
     
 }
 
-function Form(){
+function Form(props){
     const [titulo, setTitulo] = useState('')
     const [description, setDescripton] = useState('')
     const [link, setLink] = useState('')
     
     return(
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className={props.modal ? 'show' : ''}>
             <Field name="Título" value={titulo} onChange={ e => setTitulo(e.target.value) }/>
             <Field name="Descrição" value={description} onChange={ e => setDescripton(e.target.value) }/>
             <Field name="URL" value={link} onChange={ e => setLink(e.target.value) } />

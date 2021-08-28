@@ -3,7 +3,7 @@ header{
     flex-flow: row wrap;
     align-items: center;
     height: 20vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #252422ce;
 }
 

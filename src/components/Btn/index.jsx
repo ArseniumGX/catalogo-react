@@ -6,6 +6,7 @@ function Button(props){
             type={props.type}
             disabled={props.disable}
             className={props.className}
+            onClick={props.onClick}
         >
                 {props.name}
         </button>

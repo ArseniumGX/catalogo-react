@@ -1,6 +1,8 @@
 form{
+    position: fixed;
+    top: -999px;
     height: auto;
-    width: 20rem;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +10,11 @@ form{
     padding: 1rem;
     background-color: #252422ce;
     border-radius: 0 0 8px 8px;
+    transition: .4s ease-in;
+}
+
+form.show{
+    top: 20vh;
 }
 
 form div{
@@ -15,4 +22,29 @@ form div{
     display: flex;
     flex-direction: column;
     justify-items: center;
+}
+
+form div label{
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    margin-bottom: .2rem;
+}
+
+form div input{
+    background-color: unset;
+    border: none;
+    border-bottom: .1rem solid #ccc5b9;
+    width: 32rem;
+    transition: .5s ease-in-out;
+    color: #fffcf2;
+    padding: .5rem;
+    outline: none;
+}
+
+form div input:hover{
+    border-bottom: .1rem solid #6320ee;
+}
+
+form div input:focus{
+    border-bottom: .1rem solid #6320ee;
 }
