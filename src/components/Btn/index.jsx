@@ -8,7 +8,7 @@ function Button(props){
             className={props.className}
             onClick={props.onClick}
         >
-                {props.name}
+            {props.name}
         </button>
     )
 }

@@ -1,6 +1,6 @@
 form{
     position: fixed;
-    top: -999px;
+    top: -600px;
     height: auto;
     width: auto;
     display: flex;
@@ -10,7 +10,7 @@ form{
     padding: 1rem;
     background-color: #252422ce;
     border-radius: 0 0 8px 8px;
-    transition: .4s ease-in;
+    transition: 1s ease-in-out;
 }
 
 form.show{
@@ -35,7 +35,7 @@ form div input{
     border: none;
     border-bottom: .1rem solid #ccc5b9;
     width: 32rem;
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
     color: #fffcf2;
     padding: .5rem;
     outline: none;
@@ -47,4 +47,9 @@ form div input:hover{
 
 form div input:focus{
     border-bottom: .1rem solid #6320ee;
+}
+
+form button{
+    margin: 1rem 0;
+    align-self: flex-end;
 }

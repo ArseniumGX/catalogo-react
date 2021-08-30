@@ -4,6 +4,7 @@ div.logo{
     justify-content: center;
     align-items: center;
     height: inherit;
+    z-index: inherit;
 }
 
 div.logo img{

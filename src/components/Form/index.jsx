@@ -4,7 +4,6 @@ import Btn from '../Btn'
 import { useState } from 'react'
 
 
-
 const Field = props => {
     return(
         <div>
@@ -33,9 +32,23 @@ function Form(props){
     return(
         <form onSubmit={handleSubmit} className={props.modal ? 'show' : ''}>
             <Field name="Título" value={titulo} onChange={ e => setTitulo(e.target.value) }/>
-            <Field name="Descrição" value={description} onChange={ e => setDescripton(e.target.value) }/>
+            <Field name="Descrição" value={description} />
             <Field name="URL" value={link} onChange={ e => setLink(e.target.value) } />
-            <Btn type="submit" name="Enviar" disable={titulo && link ? false : true} className={titulo && link ? 'isActive' : ''} />
+            <Btn 
+                type="submit" 
+                name="Enviar" 
+                disable={titulo && link ? false : true} 
+                className={titulo && link ? 'isActive' : ''}
+                onClick={() => {
+                    const obj = {
+                        id: uuid(),
+                        title: titulo,
+                        description,
+                        link: link.replace('watch?v=', 'embed/')
+                    }
+
+                    return(obj)
+                }} />
         </form>
     )
 }

@@ -5,12 +5,20 @@ header{
     height: 20vh;
     justify-content: space-evenly;
     background-color: #252422ce;
+    z-index: 999;
 }
 
-section.form{
+section.modal{
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section.content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
 }
