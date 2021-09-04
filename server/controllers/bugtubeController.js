@@ -4,7 +4,8 @@ import { save, load } from '../data/methods.js'
 class BugtubeControllers{
     getAll = (req, res) => {
         const list = load()
-        return res.status(200).json(list)
+        console.log(list)
+        return res.status(200).send(list)
     }
 
     getOne = (req, res) => {

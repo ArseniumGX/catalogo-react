@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import api from '../service.js'
 import './App.css'
 import Logo from './Logo'
 import Title from './Title'
@@ -7,6 +8,14 @@ import Btn from './Btn'
 import Card from './Card'
 
 function App(){
+
+    // const [list, setList] = useState([])
+
+
+    // useEffect(async() => {
+    //     const data = await api.get('api/bugtube').then(res => res.data)
+    //     setList(data)
+    // }, [])
     const [list, setList] = useState([
         {
             id: 1,
