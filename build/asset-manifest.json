@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3e53e55.chunk.css",
+    "main.js": "/static/js/main.950228e1.chunk.js",
+    "main.js.map": "/static/js/main.950228e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eac2ee38.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eac2ee38.js.map",
+    "static/js/2.2a4036f9.chunk.js": "/static/js/2.2a4036f9.chunk.js",
+    "static/js/2.2a4036f9.chunk.js.map": "/static/js/2.2a4036f9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b3e53e55.chunk.css.map": "/static/css/main.b3e53e55.chunk.css.map",
+    "static/js/2.2a4036f9.chunk.js.LICENSE.txt": "/static/js/2.2a4036f9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Science and Technology.01ce8a35.png",
+    "static/media/bugtube.3353ae92.svg": "/static/media/bugtube.3353ae92.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eac2ee38.js",
+    "static/js/2.2a4036f9.chunk.js",
+    "static/css/main.b3e53e55.chunk.css",
+    "static/js/main.950228e1.chunk.js"
+  ]
+}
